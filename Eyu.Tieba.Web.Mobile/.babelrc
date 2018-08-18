@@ -1,0 +1,30 @@
+// {
+//   "presets": [
+//     ["env", {
+//       "modules": false
+//     }],
+//     "stage-2"
+//   ],
+//   "plugins": ["transform-runtime"]
+// }
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "component",
+      [
+        {
+          "libraryName": "mint-ui",
+          "style": true
+        }
+      ]
+    ]
+  ]
+}
