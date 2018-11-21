@@ -1,0 +1,93 @@
+.page {
+  width: 100%;
+  height: 100%;
+}
+/* 贴吧信息 */
+.baidu-info {
+  width: 80%;
+  text-align: center;
+}
+.item {
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.item .row {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  margin: 10px;
+}
+.name {
+  font-weight: bold;
+}
+.date {
+  font-weight: bold;
+}
+
+.btn-operation {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  margin-right: 5px;
+}
+.btn-operation button {
+  margin-top: 5px;
+}
+
+/* 悬浮菜单 */
+.menu {
+  position: fixed;
+  right: 4.5rem;
+  bottom: 1.5rem;
+  z-index: 10000;
+}
+.menu view {
+  margin-top: 15px;
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 5px;
+  line-height: 2.5rem;
+  font-size: 1rem;
+}
+.btn {
+  position: fixed;
+  right: 1rem;
+  bottom: 1.5rem;
+  z-index: 10000;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  line-height: 3rem;
+  text-align: center;
+  color: white;
+}
+.btn-add {
+  background-color: #1e90ff;
+}
+.btn-cancel {
+  background-color: red;
+}
+/* 无数据 */
+.no-data {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 0.8rem;
+  color: #909090;
+}
+.no-data image {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}

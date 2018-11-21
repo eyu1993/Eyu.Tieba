@@ -1,0 +1,67 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wxefd4b9db66375309",
+	"projectname": "Eyu.Tieba.WechatMini",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": 0,
+					"name": "账号密码登录绑定",
+					"pathName": "pages/bind/accountBind/accountBind",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "手动绑定",
+					"pathName": "pages/bind/manualBind/manualBind",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "短信快捷绑定",
+					"pathName": "pages/bind/smsBind/smsBind",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "贴吧列表",
+					"pathName": "pages/bind/list/list"
+				}
+			]
+		}
+	}
+}

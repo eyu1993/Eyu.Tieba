@@ -1,0 +1,42 @@
+/** 字体颜色 */
+.c-primary {
+  color: #1e90ff !important;
+}
+.c-red {
+  color: #ef3f22;
+}
+.c-ligthgrey {
+  color: #f2f2f2;
+}
+.c-grey {
+  color: #8b8b8b;
+}
+.c-deepgrey {
+  color: #6e6e6e;
+}
+.c-black {
+  color: #333;
+}
+.c-white {
+  color: #fff;
+}
+
+/** 字体加粗 */
+
+.f-bold {
+  font-weight: bold;
+}
+
+/** 字体大小 */
+.fs-xl {
+  font-size: 1.5rem;
+}
+.fs-l {
+  font-size: 1.25rem;
+}
+.fs-m {
+  font-size: 1rem;
+}
+.fs-xs {
+  font-size: 0.75rem;
+}

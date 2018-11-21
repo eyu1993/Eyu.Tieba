@@ -1,0 +1,13 @@
+<view class='page'>
+  <view class="form">
+    <view>
+      <input maxlength='-1' placeholder="用户名" placeholder-class='placeholder' value='{{username}}' bindinput='inputName' />
+    </view>
+    <view>
+      <input maxlength='-1' placeholder="密码" password="{{true}}" placeholder-class='placeholder' value='{{password}}' bindinput='inputPassword' />
+    </view>
+  </view>
+  <button type="primary" bind:tap="bind">登陆</button>
+  <navigator class="smsLink" url="/pages/bind/smsBind/smsBind">短信快捷登陆</navigator>
+</view>
+<view class='bottom c-grey fs-xs'>Copyright ©2018 eyu1993.top</view>

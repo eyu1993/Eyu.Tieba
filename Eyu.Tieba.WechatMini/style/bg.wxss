@@ -1,0 +1,28 @@
+/* 背景颜色 */
+.bg-primary {
+  background-color: #1e90ff !important;
+}
+
+.bg-red {
+  background-color: #ef3f22;
+}
+
+.bg-ligth-grey {
+  background-color: #f2f2f2;
+}
+
+.bg-grey {
+  background-color: #8b8b8b;
+}
+
+.bg-deepgrey {
+  background-color: #6e6e6e;
+}
+
+.bg-black {
+  background-color: #333;
+}
+
+.bg-white {
+  background-color: #fff;
+}

@@ -1,0 +1,14 @@
+<view class='page'>
+  <view class="form">
+    <view>
+      <input maxlength='-1' placeholder="BDUSS" placeholder-style='color:red' placeholder-class='placeholder' value='{{BDUSS}}' bindinput='inputBDUSS' />
+    </view>
+    <view>
+      <input maxlength='-1' placeholder="PTOKEN" placeholder-class='placeholder' value='{{PTOKEN}}' bindinput='inputPTOKEN' />
+    </view>
+    <view>
+      <input maxlength='-1' placeholder="STOKEN" placeholder-class='placeholder' value='{{STOKEN}}' bindinput='inputSTOKEN' />
+    </view>
+  </view>
+  <button type="primary" bindtap='bind' loading='{{btnLoading}}' disabled='{{btnLoading}}'>绑定</button>
+</view>

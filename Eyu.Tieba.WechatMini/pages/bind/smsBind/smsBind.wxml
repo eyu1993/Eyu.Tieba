@@ -1,0 +1,18 @@
+<view class='page'>
+  <view class="row1">
+    <input class="input" maxlength='11' placeholder="请输入手机号" placeholder-class='placeholder' value='{{username}}' bindinput='inputName' />
+  </view>
+  <view class="row2">
+    <view>
+      <input class="input" maxlength='-1' placeholder="验证码" placeholder-class='placeholder' value='{{password}}' bindinput='inputPassword' />
+    </view>
+    <view>
+      <button type="default">发送验证码</button>
+    </view>
+  </view>
+  <view class="row3">
+    <button type="primary" bind:tap="bind">登陆</button>
+  </view>
+  <navigator class="accountLink" url="/pages/bind/accountBind/accountBind">账号密码登陆</navigator>
+</view>
+<view class='bottom c-grey fs-xs'>Copyright ©2018 eyu1993.top</view>

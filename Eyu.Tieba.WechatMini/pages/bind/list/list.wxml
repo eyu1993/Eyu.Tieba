@@ -1,0 +1,41 @@
+<view class="page">
+  <!-- 已绑定的贴吧账号 -->
+  <view wx:if="{{baiduList.length>0}}">
+    <block wx:for="{{baiduList}}" wx:key="BaiduId">
+      <view class="item">
+        <view class="baidu-info">
+          <view class="row">
+            <view>贴吧名称：</view>
+            <view class="name">{{item.TiebaName}}</view>
+          </view>
+          <view class="row">
+            <view>绑定时间：</view>
+            <view class="date">{{item.BindDate}}</view>
+          </view>
+        </view>
+        <view class="btn-operation">
+          <button size="mini" type="primary" bindtap="update" data-id="{{item.BaiduId}}">更新</button>
+          <button size="mini" type="warn" bindtap="unbind" data-id="{{item.BaiduId}}">解绑</button>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view wx:else class="no-data">
+    <image src="/images/icon/file.png" />
+    <view>暂无数据</view>
+  </view>
+  <view class="mask" wx:if="{{showMask}}"></view>
+  <view wx:if="{{showMask}}" class="menu">
+    <view>
+      <navigator url="/pages/bind/manualBind/manualBind">手动绑定</navigator>
+    </view>
+    <view>
+      <navigator url="/pages/bind/accountBind/accountBind">自动绑定</navigator>
+    </view>
+    <view>
+      <navigator url="/pages/help/help">使用教程</navigator>
+    </view>
+  </view>
+  <view wx:if="{{showMask}}" class="btn btn-cancel" bind:tap="showMenu">x</view>
+  <view wx:else class='btn btn-add' bind:tap="showMenu">+</view>
+</view>

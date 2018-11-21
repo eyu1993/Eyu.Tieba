@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/menu/menu",
+    "pages/bind/accountBind/accountBind",
+    "pages/bind/list/list",
+    "pages/home/home",
+    "pages/bind/manualBind/manualBind",
+    "pages/setting/setting",
+    "pages/about/about",
+    "pages/test/test",
+    "pages/help/help",
+    "pages/bind/smsBind/smsBind"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e90ff",
+    "navigationBarTitleText": "云签到w",
+    "navigationBarTextStyle": "wiite"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "功能"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ],
+    "selectedColor": "#1e90ff"
+  }
+}
